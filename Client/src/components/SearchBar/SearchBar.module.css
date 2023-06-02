@@ -1,0 +1,45 @@
+.context{
+    background: rgb(34,237,211);
+    background: radial-gradient(circle, rgba(34,237,211,1) 21%, rgba(0,0,0,1) 72%);
+    width: 100vw;
+    height: 100vh;
+    height: 3rem;
+    background-size: auto;
+    padding-bottom: 1rem;
+}
+
+.input{
+    width: 180px;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 8px;
+    background-color: #A5D7E8
+}
+
+.input::placeholder{
+    font-style: italic;
+    text-align: center;
+    background-color: #A5D7E8
+}
+
+.rigth{
+    text-align: center;
+    padding: 12px;
+}
+
+.button{
+    font-family: 'Bruno Ace', cursive;
+    background-image: url(../../../public/img/photo-1475274047050-1d0c0975c63e.jfif);
+    background-size: cover;
+    color: #FFEA20;
+    border-radius: 5px;
+    background-color: yellow;
+    border: none;
+    padding: 8px;
+    cursor: pointer
+}
+
+.button:active {
+    transform: scale(0.97); 
+    border: 2px #F6FFA6 solid;
+}

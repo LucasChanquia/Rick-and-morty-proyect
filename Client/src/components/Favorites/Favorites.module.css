@@ -1,0 +1,41 @@
+
+.body{
+    background-image: url('../../../public/img/633262.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.parrafo{
+   text-align: center;
+   margin-top: 0;
+   padding-top: 20px;
+   font-size: 30px;
+   font-weight: 800;
+   color: #212A3E;
+}
+
+.select{
+     margin: 30px; 
+     padding-left: 25px;
+}
+
+.filter{
+    border: 2px white solid;
+    border-radius: 5px;
+    text-align: center;
+    width: 180px;
+    background-color: #eab5c9;
+    font-weight: bold;
+}
+
+.cards{
+    display: flex;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

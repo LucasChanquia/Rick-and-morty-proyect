@@ -1,0 +1,78 @@
+
+
+.container{
+    background-image: url(../../../public/img/633151.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.card{
+    background-color: black;
+    opacity: 0.85;
+    text-align: center;
+    border: 3px solid ;
+    border-radius: 10px;
+    padding: 50px 20px;
+
+
+}
+
+.data{
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+    color: red;
+}
+
+.form{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin: 15px;
+    border: 3px groove ;
+    border-radius: 25% 10% ;
+    background-color: antiquewhite;
+}
+
+.form:hover{
+    background: rgb(34,193,195);
+    background: linear-gradient(329deg, rgba(34,193,195,1) 0%, rgba(254,99,99,1) 100%);
+} 
+
+.form::placeholder{
+text-align: center;
+color: black;
+font-style: italic;
+font-size: 15px;
+}
+
+.button{
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: italic;
+    border: 2px solid red;
+    border-radius: 25% 10%;
+    background: rgb(148,170,215);
+background: radial-gradient(circle, rgba(148,170,215,0.46271008403361347) 28%, rgba(102,28,199,0.768032212885154) 59%);
+padding: 7px 25px;
+}
+
+.button:active{
+    background: rgb(148,170,215);
+    background: radial-gradient(circle, rgba(148,170,215,0.46271008403361347) 28%, rgba(28,199,197,0.768032212885154) 61%);
+}
+
+.p{
+    color:white
+}

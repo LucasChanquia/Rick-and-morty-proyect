@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+.container{
+    background: rgb(48,11,16);
+    background: linear-gradient(329deg, rgba(48,11,16,1) 38%, rgba(254,99,99,1) 100%);       
+    width: 100vw;
+    height: 5rem;
+}
+
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor:pointer;
+    font-family: 'Kanit', sans-serif;
+    background: rgb(0,97,98);
+    background: linear-gradient(329deg, rgba(0,97,98,1) 38%, rgba(254,99,99,1) 100%);
+    color: white
+}
+
+
+
+.button:active{
+    background: rgb(148,170,215);
+    background: radial-gradient(circle, rgba(148,170,215,0.46271008403361347) 28%, rgba(28,199,197,0.768032212885154) 61%);
+}
